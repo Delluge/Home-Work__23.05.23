@@ -1,0 +1,11 @@
+
+
+div {
+    border: black solid 2px;
+    background-color: #444;
+}
+
+.gridlayout {
+    display: grid;
+    grid-template: auto auto / 1fr minmax(100px, 200px) 1fr;
+}
